@@ -34,9 +34,9 @@
                         <thead class="table-light fw-semibold">
                             <tr class="align-middle">
 
-                                <th width="20%">Id</th>
+                                <th width="20%">#</th>
                                 <th width="20%">Nombre</th>
-                                <th width="20%">Activo</th>
+                                <th width="20%">Estado</th>
                                 <th width="20%">Utilidad</th>
 
                             </tr>
@@ -79,7 +79,7 @@
                                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
-                                                            <h5 class="modal-title" id="modalLabel">Borrar Equipo</h5>
+                                                            <h5 class="modal-title" id="modalLabel">Eliminar Equipo</h5>
 
                                                             <button type="button" class="close" data-dismiss="modal"
                                                                 aria-label="Close">
@@ -87,7 +87,7 @@
                                                             </button>
                                                         </div>
                                                         <div class="modal-body">
-                                                            Estas seguro que desea borrar el equipo:
+                                                            Está seguro que desea eliminar el equipo:
                                                             {{ $equipo->nombre }}
                                                         </div>
                                                         <div class="modal-footer">

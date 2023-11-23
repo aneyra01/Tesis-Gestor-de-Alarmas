@@ -11,7 +11,7 @@
         <div class="col-md-6">
             <div class="card card-primary">
                 <div class="card-header">
-                    <h3 class="card-title">Editar Alarma</h3>
+                    <h3 class="card-title">Reporte sobre la Gestion de la Alarma</h3>
                 </div>
                 <div class="card-body">
                     <form class="pb-5" action="{{ route('alarmas.update' , $alarma) }}" method="post">
@@ -19,7 +19,7 @@
                         @method('PUT')
 
                         <div class="form-group">
-                            <label for="respuesta">Respuesta</label>
+                            <label for="respuesta">Reporte</label>
                             <input type="text"
                             class="form-control"
                             name="respuesta"

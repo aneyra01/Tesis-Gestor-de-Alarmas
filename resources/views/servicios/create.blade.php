@@ -12,7 +12,7 @@
             <div class="col-md-6">
                 <div class="card card-primary">
                     <div class="card-header">
-                        <h3 class="card-title">Crear Servicio</h3>
+                        <h3 class="card-title">Agregar Servicio</h3>
                     </div>
                     <div class="card-body">
                         <form class="pb-5" action="{{ route('servicios.store') }}" method="post">

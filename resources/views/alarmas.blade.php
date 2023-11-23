@@ -75,7 +75,7 @@
         <div class="body flex-grow-1 px-3">
             <div class="container-lg">
                 <!-- /.card.mb-4-->
-                <h1 class="display-3">Alarmas</h1>
+                <h1 class="display-3">Historial de Alarmas</h1>
 
                 <div id="datatable-buttons"></div>
 
@@ -89,11 +89,11 @@
                                         </use>
                                     </svg>
                                 </th>
-                                <th width="20%">Host</th>
+                                <th width="20%">Equipo</th>
                                 <th width="20%">Servicio</th>
-                                <th width="15%">Inicio</th>
-                                <th width="15%">Final</th>
-                                <th width="15%">Respuesta</th>
+                                <th width="15%">Fecha Inicio</th>
+                                <th width="15%">Fecha Final</th>
+                                <th width="15%">Reportes</th>
                                 <th width="10%"></th>
 
                             </tr>
@@ -186,7 +186,7 @@
 
                 {
                     extend: 'excel',
-                    text: 'Exel',
+                    text: 'Excel',
                     titleAttr: 'Exportar a EXEL',
                     exportOptions: {
                         columns: [1, 2, 3, 4, 5]

@@ -32,17 +32,17 @@
                             <div class="card-body row text-center">
                                 <div class="col">
                                     <div class="fs-5 fw-semibold">{{ $equiposUp }}</div>
-                                    <div class="text-uppercase text-medium-emphasis small">UP</div>
+                                    <div class="text-uppercase text-medium-emphasis small">Equipos funcionando</div>
                                 </div>
                                 <div class="vr"></div>
                                 <div class="col">
                                     <div class="fs-5 fw-semibold">{{ $equiposDowm }}</div>
-                                    <div class="text-uppercase text-medium-emphasis small">ERROR</div>
+                                    <div class="text-uppercase text-medium-emphasis small">Equipos con error</div>
                                 </div>
                                 <div class="vr"></div>
                                 <div class="col">
                                     <div class="fs-5 fw-semibold">{{ number_format($equiposUpPercent, 2) }}</div>
-                                    <div class="text-uppercase text-medium-emphasis small">%</div>
+                                    <div class="text-uppercase text-medium-emphasis small">% de disponibilidad</div>
                                 </div>
                             </div>
                         </div>
@@ -63,17 +63,17 @@
                             <div class="card-body row text-center">
                                 <div class="col">
                                     <div class="fs-5 fw-semibold">{{ $servicesCount }}</div>
-                                    <div class="text-uppercase text-medium-emphasis small">services</div>
+                                    <div class="text-uppercase text-medium-emphasis small">Total de servicios</div>
                                 </div>
                                 <div class="vr"></div>
                                 <div class="col">
                                     <div class="fs-5 fw-semibold">{{ $servicesDowm }}</div>
-                                    <div class="text-uppercase text-medium-emphasis small">DOWN</div>
+                                    <div class="text-uppercase text-medium-emphasis small">Servicios caídos</div>
                                 </div>
                                 <div class="vr"></div>
                                 <div class="col">
                                     <div class="fs-5 fw-semibold">{{ number_format($upPercent, 2) }}</div>
-                                    <div class="text-uppercase text-medium-emphasis small">%</div>
+                                    <div class="text-uppercase text-medium-emphasis small">% de disponibilidad</div>
                                 </div>
                             </div>
                         </div>
@@ -124,14 +124,14 @@
                                         </use>
                                     </svg>
                                 </th>
-                                <th width="25%">User</th>
+                                <th width="25%">Usuarios</th>
 
                                 {{-- <th width="40%">Usage</th> --}}
 
                                 <th width="5%"> &nbsp;</th>
 
 
-                                <th width="20%">Activity</th>
+                                <th width="20%">Actividad</th>
 
                             </tr>
                         </thead>
@@ -246,9 +246,9 @@
                                 <div class="card mb-4 text-white {{ $item->estado->estado == 'Buen' ? 'bg-primary': 'bg-danger' }}">
                                     <div class="card-body pb-0 d-flex justify-content-between align-items-start">
                                         <div>
-                                            <div class="fs-4"> Host: {{ $item->equipo->nombre }}</div>
+                                            <div class="fs-4"> Equipo: {{ $item->equipo->nombre }}</div>
                                             <div>Servicio : {{ $item->equipo->nombre }}</div>
-                                            <div>Respuesta: {{ $item->respuesta }}</div>
+                                            <div>Reporte: {{ $item->respuesta }}</div>
                                         </div>
                                     </div>
                                     <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">

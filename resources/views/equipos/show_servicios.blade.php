@@ -21,9 +21,9 @@
                         <thead class="table-light fw-semibold">
                             <tr class="align-middle">
 
-                                <th width="20%">Id</th>
+                                <th width="20%">#</th>
                                 <th width="20%">Nombre</th>
-                                <th width="20%">Activo</th>
+                                <th width="20%">Estado</th>
 
                             </tr>
                         </thead>

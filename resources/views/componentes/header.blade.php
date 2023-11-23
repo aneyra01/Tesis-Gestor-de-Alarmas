@@ -12,7 +12,7 @@
                 <use xlink:href='{{ asset('assets/brand/coreui.svg#full') }}''></use>
             </svg></a>
         <ul class="header-nav d-none d-md-flex">
-            <li class="nav-item"><a class="nav-link" href="#">Dashboard</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"></a></li>
         </ul>
 
 

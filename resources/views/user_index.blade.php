@@ -23,7 +23,7 @@
                         <thead class="table-light fw-semibold">
                             <tr class="align-middle">
 
-                                <th width="20%">Id</th>
+                                <th width="20%">#</th>
                                 <th width="20%">Nombre</th>
                                 <th width="20%">Email</th>
                                 <th width="20%">Utilidad</th>
@@ -62,7 +62,7 @@
                                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
-                                                            <h5 class="modal-title" id="modalLabel">Borrar Usuario</h5>
+                                                            <h5 class="modal-title" id="modalLabel">Eliminar Usuario</h5>
 
                                                             <button type="button" class="close" data-dismiss="modal"
                                                                 aria-label="Close">
@@ -70,7 +70,7 @@
                                                             </button>
                                                         </div>
                                                         <div class="modal-body">
-                                                            Estas seguro que desea borrar el usuario:
+                                                            Está seguro que desea eliminar el usuario:
                                                             {{ $user->name }}
                                                         </div>
                                                         <div class="modal-footer">
